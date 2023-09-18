@@ -37,6 +37,9 @@ dependencies {
 
 	// oauth2 client 의존성
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
+	// spring-session-jdbc 의존성
+	implementation 'org.springframework.session:spring-session-jdbc'
 }
 
 tasks.named('test') {
